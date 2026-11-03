@@ -1,4 +1,4 @@
-const aiService = require("../services/aiservice");
+const aiService = require("../services/aiService");
 const cricketService = require("../services/cricketService");
 
 const MAX_TOKENS = 400;
