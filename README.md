@@ -4,7 +4,7 @@
 
 PlaySense AI spots unusual moments in a cricket match (collapses, boundary bursts, dot-ball squeezes), tracks which side seems to be gaining control, and explains why it matters in plain language.
 
-- **Live demo:** https://YOUR-APP.vercel.app
+- **Live demo:** (https://playsense-ai-wrdj.vercel.app/)
 - **Hosting note:** the app runs on free tiers. The first load after a quiet period can take up to a minute while the server wakes up.
 - **Data mode:** balls are entered by hand and the app says so (an amber *Manual Feed* strip). It is **not** a live data feed.
 
