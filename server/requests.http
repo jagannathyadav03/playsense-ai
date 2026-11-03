@@ -1,0 +1,17 @@
+### Analyze a feed (should succeed)
+POST http://localhost:5000/api/matches/analyze
+Content-Type: application/json
+
+{
+  "match": { "battingTeam": "India", "bowlingTeam": "New Zealand", "maxOvers": 20 },
+  "tokens": ["1", "4", "wd", "W", "0", "nb", "2"]
+}
+
+### Analyze a feed with a bad token (should return 400)
+POST http://localhost:5000/api/matches/analyze
+Content-Type: application/json
+
+{
+  "match": { "battingTeam": "India", "bowlingTeam": "New Zealand", "maxOvers": 20 },
+  "tokens": ["1", "x"]
+}
